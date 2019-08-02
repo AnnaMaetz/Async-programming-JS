@@ -23,6 +23,7 @@ export const getDirectorySize = (dirPath, cb) => {
 //*
 The asynchronous getDirectorySize function, which counts 
 the size of the transferred directory (not including the subdirectories).
+
 import { getDirectorySize } from './info';
 
 getDirectorySize('/usr/local/bin', (err, size) => {
